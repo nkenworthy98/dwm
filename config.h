@@ -11,7 +11,7 @@ static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#333333";
 static const char col_gray3[]       = "#FFFFFF";
 static const char col_gray4[]       = "#FFFFFF";
-static const char col_cyan[]        = "#1793d1";
+static const char col_cyan[]        = "#2d6280";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
