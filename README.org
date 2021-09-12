@@ -55,7 +55,6 @@ and (re)compiling the source code.
 * Patches and Other Changes
 ** Patches
 - [[https://dwm.suckless.org/patches/alpha/][dwm-alpha-20201019-61bb8b2.diff]]
-- [[https://dwm.suckless.org/patches/alpha/][dwm-fixborders-6.2.diff]] (Link can be found in the =Download= section of the =alpha= patch)
 - [[https://dwm.suckless.org/patches/functionalgaps/][dwm-functionalgaps-6.2.diff]]
 
 ** Config.h Changes
