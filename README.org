@@ -60,7 +60,7 @@ and (re)compiling the source code.
 ** Config.h Changes
 - Changed font to =Terminus=
 - Changed status bar colors:
-  + Foreground: =#2d6280=
+  + Foreground: =#526fb5=
   + Background: =#000000=
 - Updated tags for specific programs
 - Added and configured any variables required for patches
