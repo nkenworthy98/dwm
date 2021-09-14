@@ -39,13 +39,14 @@ static const Rule rules[] = {
 	/* { "Gimp",     		    NULL,       NULL,       0,            1,           -1 }, */
 	{ "Gimp",     		    NULL,       NULL,       1 << 7,       1,           -1 },
 	{ "libreoffice",        NULL,       NULL,       1 << 7,       0,           -1 },
-	{ "Tor Browser",     	NULL,       NULL,       1 << 3,       1,           -1 },
+	{ "Tor Browser",     	NULL,       NULL,       1 << 3,       1,            1 },
 	{ "firefox",  		    NULL,       NULL,       1 << 2,       0,           -1 },
-	{ "Brave",  		    NULL,       NULL,       1 << 2,       0,           -1 },
-	{ "Emacs",  		    NULL,       NULL,       1 << 8,       0,           -1 },
-	{ "mpv",  		        NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "chatterino",  		NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "IceCat",  		    NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "Emacs",  		    NULL,       NULL,       1 << 8,       0,            1 },
+	{ "mpv",  		        NULL,       NULL,       1 << 1,       0,            1 },
+	{ "chatterino",  		NULL,       NULL,       1 << 1,       0,            1 },
+	{ "Lutris",  		    NULL,       NULL,       1 << 8,       0,            0 },
+	{ NULL,                 NULL,       "tmux-main",            0,       0,            0 },
+	{ NULL,                 NULL,       "tmux-sec",            0,       0,            1 },
 };
 
 /* layout(s) */
